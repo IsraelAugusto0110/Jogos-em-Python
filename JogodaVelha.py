@@ -2,7 +2,7 @@ def menu():
     continuar = 1
     while(continuar):
         continuar = int(input('0 sair \n' +
-                              '1 jogar novamente'))
+                              '1 jogar novamente: '))
         if continuar:
             game()
         else:
@@ -16,7 +16,7 @@ def game():
         print('Jogador ', jogada%2 +1)
         exibe()
         linha = int(input('\nlinha: '))
-        coluna = int(input('coluna'))
+        coluna = int(input('coluna: '))
 
         if board[linha-1][coluna-1] == 0:
             if(jogada%2+1) == 1:
