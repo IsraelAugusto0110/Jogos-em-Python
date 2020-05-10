@@ -29,7 +29,7 @@ while (continua):
                     acertos += tentativa
                 else:
                     erros += 1
-                    print("Você errou!")
+                    print("Você acertou!... #SQN ;)")
             print("X==:==\nX  :   ")
             print("X  O   " if erros >= 1 else "X")
             linha2 = ""
